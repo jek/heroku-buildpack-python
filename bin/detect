@@ -11,4 +11,4 @@ if [ -f "$BUILD_DIR/__cached_slug__" ]; then
 fi
 
 # Continue to our regularly scheduled detector
-exec detect.stock
+exec bin/detect.stock
