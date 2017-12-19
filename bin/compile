@@ -11,4 +11,4 @@ if [ -f "$BUILD_DIR/__cached_slug__" ]; then
 fi
 
 # Continue to our regularly scheduled compiler
-exec bin/compile.stock
+exec bin/compile.stock $1 $2 $3
